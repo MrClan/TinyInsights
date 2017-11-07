@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyInsights", "TinyInsights\TinyInsights.csproj", "{90759FEA-89BF-450C-9482-F28F8B1A4C60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinyInsights", "TinyInsights\TinyInsights.csproj", "{90759FEA-89BF-450C-9482-F28F8B1A4C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyInsights.Firebase.iOS", "TinyInsights.Firebase.iOS\TinyInsights.Firebase.iOS.csproj", "{A939B418-BDC0-4EEF-A061-B4333EE6E940}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Firebase", "Firebase", "{E63D4098-1AFF-42B7-868E-FB82565795DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyInsights.Firebase.Droid", "TinyInsights.Firebase.Droid\TinyInsights.Firebase.Droid.csproj", "{1E4A0E26-06D9-4642-996F-A25AD7386152}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,21 @@ Global
 		{90759FEA-89BF-450C-9482-F28F8B1A4C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90759FEA-89BF-450C-9482-F28F8B1A4C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90759FEA-89BF-450C-9482-F28F8B1A4C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A939B418-BDC0-4EEF-A061-B4333EE6E940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A939B418-BDC0-4EEF-A061-B4333EE6E940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A939B418-BDC0-4EEF-A061-B4333EE6E940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A939B418-BDC0-4EEF-A061-B4333EE6E940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4A0E26-06D9-4642-996F-A25AD7386152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4A0E26-06D9-4642-996F-A25AD7386152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4A0E26-06D9-4642-996F-A25AD7386152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4A0E26-06D9-4642-996F-A25AD7386152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A939B418-BDC0-4EEF-A061-B4333EE6E940} = {E63D4098-1AFF-42B7-868E-FB82565795DB}
+		{1E4A0E26-06D9-4642-996F-A25AD7386152} = {E63D4098-1AFF-42B7-868E-FB82565795DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1AE56C98-B133-41D9-9BE0-4C5521F392C5}
